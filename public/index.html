@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Simple Chat App</title>
+  </head>
+  <body>
+    <div id="chat-container"></div>
+
+    <!-- Use a form element to encapsulate the input and button -->
+    <form id="message-form" onsubmit="sendMessage(); return false;">
+      <input
+        type="text"
+        id="message-input"
+        placeholder="Type your message..."
+      />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
